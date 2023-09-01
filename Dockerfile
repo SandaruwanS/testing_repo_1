@@ -18,4 +18,4 @@ COPY --from=build /lesson-086 /lesson-086
 
 USER nonroot:nonroot
 
-ENTRYPOINT ["/git2docker"]
+ENTRYPOINT ["/testing_repo_1"]
